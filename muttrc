@@ -1,0 +1,7 @@
+source /home/florian/.mutt/config.d/general
+source /home/florian/.mutt/config.d/account
+source /home/florian/.mutt/config.d/gmail
+source /home/florian/.mutt/config.d/display
+source /home/florian/.mutt/config.d/bindings
+source /home/florian/.mutt/config.d/behaviour
+source /home/florian/.mutt/config.d/pgp
