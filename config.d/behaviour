@@ -1,0 +1,18 @@
+set envelope_from
+# you should really really include a line with only "-- " in it as a seperator
+# in your signature file
+set sig_dashes = no
+set autoedit
+set edit_headers
+set fast_reply
+set fcc_attach
+unset mime_forward
+set forward_format = "Fwd: %s"
+set forward_decode
+set reply_to
+set reverse_name
+set include
+set forward_quote
+set send_charset = 'us-ascii:iso-8859-15:utf-8' # default: 'us-ascii:iso-8859-1:utf-8'
+set text_flowed = yes
+set user_agent = no

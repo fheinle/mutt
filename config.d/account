@@ -1,0 +1,13 @@
+# account specific settings
+
+set from = "florian@florianheinle.de"
+set realname = "Florian Heinle"
+set smtp_url = "smtp://florian@florianheinle.de@smtp.googlemail.com:587/"
+set smtp_pass = `/home/florian/.mutt/scripts/kr.py get florian@florianheinle.de`
+set spoolfile = "+florian-florianheinle.de/INBOX"
+mailboxes +florian-florianheinle.de/INBOX \
+          +florian-florianheinle.de/Benachrichtigungen \
+          +florian-florianheinle.de/IFTTT \
+          +search
+set mbox = "+florian-florianheinle.de/archiv"
+set postponed = "+florian-florianheinle.de/drafts"
