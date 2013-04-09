@@ -1,0 +1,8 @@
+#!/bin/bash
+# install additional python helpers
+#
+# * Goobook for Google Contacts
+# * nothing else yet
+virtualenv --system-site-packages python
+source python/bin/activate
+pip install goobook
