@@ -23,5 +23,4 @@ bind pager G  bottom
 bind pager R  group-reply
 bind attach <return> view-mailcap
 macro pager \Cu "|urlview<enter>" "call urlview to open links"
-bind compose p postpone-message
 bind index p recall-message
