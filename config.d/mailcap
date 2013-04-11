@@ -1,0 +1,2 @@
+application/*; xdg-open %s
+image/*; xdg-open %s

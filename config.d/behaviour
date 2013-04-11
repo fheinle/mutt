@@ -16,3 +16,4 @@ set forward_quote
 set send_charset = 'us-ascii:iso-8859-15:utf-8' # default: 'us-ascii:iso-8859-1:utf-8'
 set text_flowed = yes
 set user_agent = no
+set mailcap_path = /home/florian/.mutt/config.d/mailcap
