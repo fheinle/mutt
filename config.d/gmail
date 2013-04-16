@@ -4,3 +4,5 @@ set query_command="/home/florian/.mutt/scripts/gb_wrap.sh '%s'"
 macro index,pager y "<enter-command>unset trash\n <delete-message>" "Gmail archive message"
 # set this to your actual trash path
 macro index,pager d "<enter-command>set trash=+florian-florianheinle.de/trash\n <delete-message>" "Gmail delete message"
+# gmail does that automatically
+unset record
