@@ -10,7 +10,7 @@ bind index R group-reply
 bind index <tab> sync-mailbox
 bind index <space> collapse-thread
 macro index O "<shell-escape>offlineimap<enter>"
-macro index o "<shell-escape>offlineimap -qf INBOX,Benachrichtigungen,IFTTT<enter>"
+macro index o "<shell-escape>offlineimap -f INBOX,Benachrichtigungen,IFTTT<enter>"
 macro index C "<copy-message>?<toggle-mailboxes>" "copy a message to a mailbox"
 macro index M "<save-message>?<toggle-mailboxes>" "move a message to a mailbox"
 macro index S "<enter-command>unset wait_key<enter><shell-escape>/home/florian/.mutt/scripts/mutt-notmuch.py ~/.mail/search<enter><change-folder-readonly>+search<enter>" "search mail (using notmuch)"
