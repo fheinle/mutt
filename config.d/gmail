@@ -6,3 +6,4 @@ macro index,pager y "<enter-command>unset trash\n <delete-message>" "Gmail archi
 macro index,pager d "<enter-command>set trash=+florian-florianheinle.de/trash\n <delete-message>" "Gmail delete message"
 # gmail does that automatically
 unset record
+# vim: set ft=muttrc

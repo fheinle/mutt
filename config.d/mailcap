@@ -1,2 +1,3 @@
 application/*; xdg-open %s
 image/*; xdg-open %s
+# vim: set ft=muttrc

@@ -148,3 +148,4 @@ color body          color160        color234        "([a-z][a-z0-9+-]*://(((([a-
 #folder-hook .                  "color status        J_black         J_status        "
 #folder-hook gmail/inbox        "color status        J_black         color136        "
 #folder-hook gmail/important    "color status        J_black         color136        "
+# vim: set ft=muttrc

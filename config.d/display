@@ -31,3 +31,4 @@ set quote_regexp = "^( {0,4}[>|:#%]| {0,4}[a-z0-9]+[>|]+)+"
 alternative_order text/plain text/enriched text/html
 set assumed_charset = 'utf-8:iso8859-15' # default: '(empty)'
 set locale = 'de_DE.UTF-8' # default: 'C'
+# vim: set ft=muttrc

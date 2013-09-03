@@ -17,3 +17,4 @@ set quit
 unset mark_old
 set pipe_decode
 set thorough_search
+# vim: set ft=muttrc

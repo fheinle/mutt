@@ -17,3 +17,4 @@ set crypt_replysign
 set crypt_replyencrypt=yes
 set crypt_verify_sig=yes
 message-hook '!(~g|~G) ~b"^-----BEGIN\ PGP\ (SIGNED\ )?MESSAGE"' "exec check-traditional-pgp"
+# vim: set ft=muttrc

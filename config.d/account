@@ -11,3 +11,4 @@ mailboxes +florian-florianheinle.de/INBOX \
           +search
 set mbox = "+florian-florianheinle.de/archiv"
 set postponed = "+florian-florianheinle.de/drafts"
+# vim: set ft=muttrc
