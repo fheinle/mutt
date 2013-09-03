@@ -2,8 +2,8 @@
 
 set folder = ~/.mail
 set alias_file = ~/.mutt/alias
-set header_cache = ~/.mutt/cache/headers/
-set message_cachedir = ~/.mutt/cache/bodies
+set header_cache = ~/.mutt-cache/headers/
+set message_cachedir = ~/.mutt-cache/bodies
 set tmpdir = ~/.mutt/temp
 set signature = ~/.mutt/sig
 set wait_key = no
