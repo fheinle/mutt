@@ -5,4 +5,4 @@ source /home/florian/.mutt/config.d/display
 source /home/florian/.mutt/config.d/bindings
 source /home/florian/.mutt/config.d/behaviour
 source /home/florian/.mutt/config.d/pgp
-source /home/florian/.mutt/config.d/solarized
+#source /home/florian/.mutt/config.d/solarized
