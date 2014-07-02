@@ -7,7 +7,7 @@ bind index gg first-entry
 bind index G last-entry
 
 bind index R group-reply
-bind index <tab> sync-mailbox
+#bind index <tab> sync-mailbox
 bind index <space> collapse-thread
 macro index O "<shell-escape>offlineimap<enter>"
 macro index o "<shell-escape>offlineimap -f INBOX,Benachrichtigungen,IFTTT<enter>"
