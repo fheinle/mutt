@@ -1,3 +1,0 @@
-[DEFAULT]
-email: florian@florianheinle.de
-passwordeval: /home/florian/.mutt/scripts/kr.py get florian@florianheinle.de
