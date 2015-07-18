@@ -27,4 +27,7 @@ bind index p recall-message
 macro index b '<enter-command>toggle sidebar_visible<enter><refresh>'
 macro pager b '<enter-command>toggle sidebar_visible<enter><redraw-screen>'
 bind index B bounce-message
+macro index,pager A \
+    "<pipe-message>khard add-email<return>" \
+        "add the sender email address to khard"
 # vim: set ft=muttrc

@@ -7,4 +7,7 @@ set smtp_pass = `/home/florian/.mutt/scripts/kr.py get florian@florianheinle.de`
 set spoolfile = "+florian-florianheinle.de/INBOX"
 set mbox = "+florian-florianheinle.de/archiv"
 set postponed = "+florian-florianheinle.de/drafts"
+set query_command= "khard mutt --search '%s'"
+bind editor <Tab> complete-query
+bind editor ^T    complete
 # vim: set ft=muttrc
