@@ -3,7 +3,8 @@
 set from = "florian@florianheinle.de"
 set realname = "Florian Heinle"
 set smtp_url = "smtp://florian@florianheinle.de@smtp.googlemail.com:587/"
-set smtp_pass = `/home/florian/.mutt/scripts/kr.py get florian@florianheinle.de`
+set smtp_pass = `/home/florian/.mutt/scripts/key.py get florian florianheinle.de`
+#set smtp_pass = `/home/florian/.mutt/scripts/kr.py get florian@florianheinle.de`
 set spoolfile = "+florian-florianheinle.de/INBOX"
 set mbox = "+florian-florianheinle.de/archiv"
 set postponed = "+florian-florianheinle.de/drafts"
